@@ -3,4 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="orange_logo">#FF6B35</color>
+    <color name="dark_orange">#FA4032</color>
+    <color name="yellow_orange">#FAB12F</color>
+
 </resources>
