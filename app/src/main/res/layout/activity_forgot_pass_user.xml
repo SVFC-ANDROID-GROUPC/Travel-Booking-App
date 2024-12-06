@@ -35,15 +35,18 @@
             android:text="Enter your registered email address"/>
 
         <EditText
+            android:id="@+id/email_address"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter email address"
             android:layout_marginTop="15dp"
             android:padding="10dp"
             android:background="@drawable/edittext_shadow"
+            android:inputType="textEmailAddress"
             android:minHeight="48dp" />
 
         <Button
+            android:id="@+id/btn_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"

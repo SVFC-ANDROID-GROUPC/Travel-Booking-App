@@ -35,13 +35,13 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            >
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_input_username"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingVertical="15dp"
-                android:paddingHorizontal="10dp"
                 android:background="@drawable/edittext_shadow"
                 android:hint="Username"/>
         </com.google.android.material.textfield.TextInputLayout>
@@ -52,16 +52,16 @@
             app:passwordToggleEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_input_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Password"
                 android:inputType="textPassword"
-                android:paddingHorizontal="10dp"
-                android:paddingVertical="15dp"
-                android:background="@drawable/edittext_shadow" />
+                android:background="@drawable/edittext_shadow"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
+            android:id="@+id/tv_forgot_password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingVertical="10dp"
@@ -71,12 +71,14 @@
             android:text="Forgot Your Password?"/>
 
         <Button
+            android:id="@+id/btn_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/orange_logo"
             android:paddingVertical="15dp"
             android:text="Continue"
-            android:textColor="#FFFFFF" />
+            android:textColor="@color/white"
+            tools:ignore="TextContrastCheck" />
 
     </LinearLayout>
 
